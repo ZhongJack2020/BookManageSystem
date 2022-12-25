@@ -14,6 +14,9 @@ import axios from 'axios'
 import Vuex from 'vuex'
 // 导入store
 import store from './store';
+import '@/assets/icon/iconfont.js' // 图标
+import '@/assets/icon/iconfont.css'
+import '@/assets/css/global.css'
 // 使用ElementUI
 Vue.use(ElementUI)
 // 使用Vuex
