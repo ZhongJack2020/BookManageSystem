@@ -59,6 +59,9 @@
           return this.$message.error('菜单初始化失败')
         this.menuList = res.data.data
         this.activePath = this.$route.fullPath
+        this.menuList.push({authName:'统计信息',id:8,path:'/stat'});
+        console.log(this.menuList)
+        console.log(this.activePath)
       },
       // 保存链接激活状态
       saveNavState(activePath) {

@@ -15,7 +15,7 @@
     </el-row>
     <div id="myTimer" style="margin-left: 15px; font-weight: 550"></div>
     <!-- 为 ECharts 准备一个具备大小（宽高）的 DOM -->
-    <div id="main" style="margin-left: 5px; height: 600px;width: 900px;"></div>
+    <div id="main" style="margin-left: 5px; height: 600px;width: 1000px;"></div>
   </div>
 </template>
 
@@ -25,6 +25,7 @@ export default {
 
   data() {
     
+    // @TODO 图表数据的位置
     let cards=([
   { title: "已借阅", data: 34, icon: "#iconlend-record-pro" },
   { title: "总访问", data: 58, icon: "#iconvisit" },
